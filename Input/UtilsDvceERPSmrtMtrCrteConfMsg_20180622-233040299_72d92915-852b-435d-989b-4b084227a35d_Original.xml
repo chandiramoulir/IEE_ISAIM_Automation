@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<s1:UtilitiesDeviceERPSmartMeterCreateConfirmation xmlns:s1="http://sap.com/xi/SAPGlobal20/Global">
+  <MessageHeader>
+    <UUID>dbb1cd19-55a1-4cfb-98f2-bf2f2fdb0bc4</UUID>
+    <ReferenceUUID>5593750604678218</ReferenceUUID>
+    <CreationDateTime>2018-06-23T03:30:40Z</CreationDateTime>
+    <SenderBusinessSystemID>SapDefaultSystem</SenderBusinessSystemID>
+  </MessageHeader>
+  <UtilitiesDevice>
+    <ID schemeID="" schemeAgencyID="">Robot310256</ID>
+  </UtilitiesDevice>
+  <Log>
+    <BusinessDocumentProcessingResultCode>3</BusinessDocumentProcessingResultCode>
+    <MaximumLogItemSeverityCode>1</MaximumLogItemSeverityCode>
+    <Item>
+      <TypeID>((00000))</TypeID>
+      <SeverityCode>1</SeverityCode>
+      <Note>Request successfully processed. </Note>
+    </Item>
+  </Log>
+</s1:UtilitiesDeviceERPSmartMeterCreateConfirmation>

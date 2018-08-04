@@ -1,0 +1,27 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:glob="http://sap.com/xi/SAPGlobal20/Global">
+   <soapenv:Body>
+      <glob:UtilitiesDeviceERPSmartMeterCreateRequest>
+         <MessageHeader>
+            <UUID schemeID="" schemeAgencyID="">704729900672</UUID>
+            <CreationDateTime>2018-08-04T11:53:39Z</CreationDateTime>
+            <SenderBusinessSystemID>SapDefaultSystem</SenderBusinessSystemID>
+         </MessageHeader>
+         <UtilitiesDevice>
+            <ID schemeID="" schemeAgencyID="">Robo560452</ID>
+            <StartDate>2001-01-01</StartDate>
+            <EndDate>9999-12-31</EndDate>
+            <SerialID>S560452</SerialID>
+            <MaterialID schemeID="" schemeAgencyID="">M560452</MaterialID>
+            <ProductUniqueItemID schemeID="" schemeAgencyID="">P560452</ProductUniqueItemID>
+            <IndividualMaterialManufacturerInformation>
+               <PartyInternalID schemeID="" schemeAgencyID="">ITRON890X</PartyInternalID>
+               <PartNumberID schemeID="" schemeAgencyID="">ITRON890X</PartNumberID>
+               <SerialID>S560452</SerialID>
+            </IndividualMaterialManufacturerInformation>
+            <SmartMeter>
+               <UtilitiesAdvancedMeteringSystemID schemeID="" schemeAgencyID="">I210</UtilitiesAdvancedMeteringSystemID>
+            </SmartMeter>
+         </UtilitiesDevice>
+      </glob:UtilitiesDeviceERPSmartMeterCreateRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
