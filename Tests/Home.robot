@@ -13,8 +13,10 @@ Suite Teardown  ISAIM_dismantle
 *** Test Cases ***
 
 Create Configuration Services
-        Level1.Meter Creation
-        Level1.Register Creation
+        Level1.Call Meter Create
+        Level1.Call Register Create
+        Level1.Call Meter Location
+
 Change Configuration Services
         No Operation
 Interval Billing Services

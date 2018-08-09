@@ -8,9 +8,12 @@ ${Meter_ID}=        set global variable
 
 *** Keywords ***
 
-Meter Creation
+Call Meter Create
     ${Meter_Id}     Meter Create
     Wait Until Keyword Succeeds     2 min       5 sec       Verify in DB        ${Meter_ID}
 
-Register Creation
+Call Register Create
     Register Create
+
+Call Meter Location
+    Meter Location
